@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<Title>Zecurion</Title>
+<link rel="stylesheet" href="./style.css">
+<meta cherset="UTF-8"> 
+<meta name="viewport" content="width=device-width">
+<link rel="shortcut icon" href="./img/main__logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header__background">
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__logo logo">
+                        <a href="#" class="header__logo-link">
+                            <div class="logo__image"><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="1.52588e-05" width="50" height="50" fill="#CD1F47"/>
+                                <path d="M22.2222 0L1.52588e-05 21.6049V38.2716L37.963 0H22.2222Z" fill="white"/>
+                                <path d="M50 29.6296V12.963L12.963 50H29.9383L50 29.6296Z" fill="white"/>
+                                </svg>
+                            </div>
+                        </a>
+                        <div class="logo__text">
+                            <p class="logo__name">Zecurion</p>
+                            <p class="logo__about">Поставщик решений для <br> IT-безопасности мирового уровня</p>
+                        </div>
+                    </div>
+                    <nav class="header__navigation">
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <a href="#" class="header__link">Товары <span class="haeder__arrow"><svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.53936 3.5L2.03149 1H7.04723L4.53936 3.5Z" stroke="white"/>
+                                    </svg>
+                                    </span></a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__link">Партнеры <span  class="haeder__arrow"><svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.53936 3.5L2.03149 1H7.04723L4.53936 3.5Z" stroke="white"/>
+                                    </svg>
+                                    </span></a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__link">Компания <span  class="haeder__arrow"><svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.53936 3.5L2.03149 1H7.04723L4.53936 3.5Z" stroke="white"/>
+                                    </svg>
+                                    </span></a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__dots-meny"><svg width="25" height="5" viewBox="0 0 25 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.27051 0C2.92155 0 3.46273 0.195312 3.89404 0.585938C4.32536 0.968424 4.54102 1.46077 4.54102 2.06299C4.54102 2.6652 4.32536 3.16162 3.89404 3.55225C3.46273 3.93473 2.92155 4.12598 2.27051 4.12598C1.61133 4.12598 1.06608 3.93066 0.634766 3.54004C0.211589 3.14941 0 2.65706 0 2.06299C0 1.46891 0.211589 0.976562 0.634766 0.585938C1.06608 0.195312 1.61133 0 2.27051 0Z" fill="white"/>
+                                    <path d="M12.3389 0C12.9899 0 13.5311 0.195312 13.9624 0.585938C14.3937 0.968424 14.6094 1.46077 14.6094 2.06299C14.6094 2.6652 14.3937 3.16162 13.9624 3.55225C13.5311 3.93473 12.9899 4.12598 12.3389 4.12598C11.6797 4.12598 11.1344 3.93066 10.7031 3.54004C10.2799 3.14941 10.0684 2.65706 10.0684 2.06299C10.0684 1.46891 10.2799 0.976562 10.7031 0.585938C11.1344 0.195312 11.6797 0 12.3389 0Z" fill="white"/>
+                                    <path d="M22.4072 0C23.0583 0 23.5994 0.195312 24.0308 0.585938C24.4621 0.968424 24.6777 1.46077 24.6777 2.06299C24.6777 2.6652 24.4621 3.16162 24.0308 3.55225C23.5994 3.93473 23.0583 4.12598 22.4072 4.12598C21.748 4.12598 21.2028 3.93066 20.7715 3.54004C20.3483 3.14941 20.1367 2.65706 20.1367 2.06299C20.1367 1.46891 20.3483 0.976562 20.7715 0.585938C21.2028 0.195312 21.748 0 22.4072 0Z" fill="white"/>
+                                    </svg>
+                                    </a>
+                            </li>
+                            <li class="header__item">
+                                <div class="header__search"><svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.78918 10.4869C11.0063 10.4862 12.1856 10.0649 13.126 9.29483C14.0664 8.52474 14.7098 7.45349 14.9466 6.26359C15.1834 5.07369 14.999 3.83877 14.4246 2.76923C13.8503 1.6997 12.9217 0.861722 11.7969 0.398084C10.6722 -0.0655544 9.42099 -0.12617 8.25645 0.226565C7.09191 0.5793 6.08611 1.32356 5.41041 2.33254C4.73472 3.34152 4.43094 4.55279 4.55084 5.75997C4.67074 6.96715 5.20689 8.09555 6.06795 8.95291C6.5563 9.44024 7.13644 9.82662 7.77503 10.0899C8.41363 10.3531 9.09811 10.488 9.78918 10.4869ZM9.78918 0.423655C10.9079 0.424437 11.9918 0.811806 12.8562 1.51976C13.7205 2.22772 14.3118 3.21246 14.5294 4.30622C14.7469 5.39998 14.5772 6.53507 14.0492 7.51812C13.5212 8.50117 12.6676 9.27135 11.6337 9.69744C10.5999 10.1235 9.44976 10.1792 8.37935 9.85488C7.30894 9.53059 6.38446 8.84644 5.76342 7.91898C5.14238 6.99151 4.86319 5.87813 4.97343 4.76852C5.08367 3.6589 5.57651 2.62171 6.36799 1.83365C6.81697 1.38563 7.35033 1.03043 7.93744 0.788463C8.52456 0.546493 9.15385 0.422517 9.78918 0.423655Z" fill="white"/>
+                                    <path d="M9.78918 9.28882C10.7282 9.28836 11.6381 8.96339 12.3637 8.36929C13.0893 7.77518 13.5857 6.94871 13.7685 6.03068C13.9512 5.11265 13.8089 4.15987 13.3658 3.33468C12.9228 2.5095 12.2063 1.86296 11.3386 1.50522C10.4708 1.14749 9.50546 1.10071 8.60699 1.37284C7.70851 1.64497 6.9325 2.21918 6.41118 2.99763C5.88987 3.77608 5.6555 4.7106 5.748 5.64197C5.84051 6.57334 6.25418 7.44392 6.91852 8.10539C7.29525 8.48133 7.74278 8.7794 8.23541 8.98248C8.72804 9.18557 9.25607 9.28968 9.78918 9.28882ZM9.78918 1.6215C10.6298 1.62207 11.4443 1.91312 12.0938 2.44507C12.7433 2.97703 13.1877 3.71697 13.3512 4.53884C13.5147 5.36071 13.3872 6.21366 12.9905 6.95236C12.5938 7.69107 11.9523 8.26982 11.1755 8.59003C10.3986 8.91024 9.53441 8.95209 8.73007 8.70845C7.92572 8.46481 7.23102 7.95076 6.76432 7.25386C6.29761 6.55697 6.08778 5.72036 6.17057 4.88656C6.25336 4.05277 6.62364 3.27337 7.21834 2.68117C7.55571 2.34448 7.9565 2.07754 8.39768 1.89569C8.83887 1.71384 9.31175 1.62066 9.78918 1.6215Z" fill="white"/>
+                                    <path d="M5.84978 10.3987C5.90618 10.3987 5.96025 10.3764 6.00012 10.3366L6.91576 9.42404L6.61508 9.12436L5.84957 9.88732L5.12978 9.16993L5.89529 8.40697L5.59461 8.10729L4.67898 9.01988C4.63912 9.05962 4.61672 9.11352 4.61672 9.16971C4.61672 9.22591 4.63912 9.27981 4.67898 9.31955L5.69966 10.3368C5.73951 10.3765 5.7935 10.3987 5.84978 10.3987Z" fill="white"/>
+                                    <path d="M1.65522 15C1.87243 15.0002 2.08755 14.9577 2.28824 14.8749C2.48894 14.7921 2.67126 14.6706 2.82475 14.5174L6.51025 10.845C6.55011 10.8053 6.57251 10.7514 6.57251 10.6952C6.57251 10.639 6.55011 10.5851 6.51025 10.5454L4.46889 8.51082C4.42902 8.47108 4.37494 8.44876 4.31855 8.44876C4.26217 8.44876 4.20809 8.47108 4.16822 8.51082L0.484205 12.1847C0.252881 12.4154 0.0953989 12.7094 0.0316658 13.0293C-0.0320663 13.3493 0.000812531 13.6809 0.126148 13.9822C0.251484 14.2835 0.463648 14.5411 0.735816 14.7222C1.00798 14.9034 1.32794 15 1.65522 15ZM6.05924 10.6952L2.52514 14.2178C2.29408 14.4464 1.98152 14.5744 1.65593 14.5738C1.33035 14.5732 1.01826 14.4441 0.788033 14.2146C0.557806 13.9852 0.428203 13.6741 0.427612 13.3496C0.427021 13.0251 0.55549 12.7136 0.78488 12.4833L4.31919 8.96096L6.05924 10.6952Z" fill="white"/>
+                                    </svg> <input placeholder="поИск" class="header__search-box" type="text">
+                                    </div>
+                            </li>
+                            <li class="header__item">
+                                <a href="#" class="header__button-link"><div class="header__button">Запросить демо</div></a>
+                                
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+         </div>
+       <header class="header-promo promo header">
+            <div class="header-promo__background">
+                
+                <div class="container">
+                    <div class="header__body">
+                        <div class="promo__content">
+                            <div class="promo__body">
+                                <div class="promo_container">
+                                    <h2 class="promo__title">ПРОСТОЙ В ИСПОЛЬЗОВАНИИ И ПРОСТОЙ В РЕАЛИЗАЦИИ КОРПОРАТИВНЫЙ DLP</h2>
+                                    <div class="promo__text">
+                                        <ul class="promo__list">
+                                            <li class="promo__item">Установка в 4 раза быстрее по сравнению с DLP другого предприятия</li>
+                                            <li class="promo__item">50+ предустановленных отчетов и 20+ вариантов настройки</li>
+                                            <li class="promo__item">Бессрочные лицензии от 60 долларов за пользователя</li>
+                                            <li class="promo__item">Шаблоны политик для быстрого старта</li>
+                                            <a href="#" class="promo__link"><div class="promo__button">Запросить демо</div></a>
+                                        </ul>
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="promo__image"> <img src="./img/macbook.svg" alt="">
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="safety">
+            <div class="container">
+                <div class="safety__grid">
+                    <div class="safety__body">
+                        <div class="safety__top">
+                            <div class="safety__title">
+                                <a href="#" class="safety__title-link">наш ключевой продукт</a>
+                                <h1 class="safety__title-text">защита от потери данных zecurion</h1>
+                            </div>
+                            <a href="#" class="safety__title-button"><span class="safety__title-box">Запросить демо</span></a>
+                        </div>
+                        <div class="safety__columns">
+                            <div class="safety__column">
+                                <div class="safety__rows">
+                                    <div class="safety__items">
+                                        <div class="safety__item">
+                                            <div class="safety__image"><img src="./img/safety__clock.svg" alt="clock">
+                                            </div>
+                                            <div class="safety__text">Быстрая установка за 1-2 дня независимо от сетевой архитектуры</div>
+                                        </div>
+                                        <div class="safety__item">
+                                            <div class="safety__image"><img src="./img/safety__windows.svg" alt="windows">
+                                            </div>
+                                            <div class="safety__text">Готовые к совместимости решения для GRDP, PCI DS S, HIPAA, FRPA и др.</div>
+                                        </div>
+                                        <div class="safety__row">
+                                            <div class="safety__item">
+                                                <div class="safety__image"><img src="./img/safety__gear.svg" alt="gears">
+                                                </div>
+                                                <div class="safety__text">Отраслевые решения для розничной торговли, финансов, здравоохранения и еще 10</div>
+                                            </div>
+                                            <a href="#" class="safety__rows-button"><div class="safety__button">Запросить демо</div></a>
+                                            <div class="safety__play">
+                                                <a href="" class="safety__play-image"><img src="./img/safety__play.svg" alt="play"></a>
+                                                
+                                                <div class="safety__play-text">Узнайте, как Zecurion DLP помогает компаниям минимизировать потери от внутренних угроз
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="registration">
+            <div class="registration__background_img">
+                <div class="registration__background_gradient">
+                    <div class="registration__background_png">
+                        <div class="container">
+                            <div class="registration__grid">
+                                <div class="registration__body">
+                                    <div class="registration__title">
+                                        <h2 class="registration__title_white-left">ЗАРЕГИСТРИРУЙТЕСЬ ДЛЯ ПОЛУЧЕНИЯ БЕСПЛАТНОЙ ДЕМО-ВЕРСИИ</h2>
+                                        <h2 class="registration__title_gray-right">нам доверяют</h2>
+                                    </div>
+                                    <div class="registration__columns">
+                                        <div class="registration__form">
+                                            <div class="registration__inputs">
+                                                <div class="registration__input input">
+                                                    <input class="input__name" placeholder="Название" type="text">
+                                                </div>
+                                                <div class="registration__input input">
+                                                    <input class="input__lastname" placeholder="Фамилия" type="text">
+                                                </div>
+                                                <div class="registration__input input">
+                                                    <input class="input__position" placeholder="Должность" type="text">
+                                                </div>
+                                                <div class="registration__input input">
+                                                    <input class="input__country" placeholder="Страна" type="text">
+                                                </div>
+                                                <div class="registration__input input">
+                                                    <input class="input__company" placeholder="Компания" type="text">
+                                                </div>
+                                                <div class="registration__input input">
+                                                    <select class="input__company-size"  name="size" id="">
+                                                        <option>Размер компании</option>
+                                                        <option value="small">Маленькая компания</option>
+                                                        <option value="middle">Средняя компания</option>
+                                                        <option value="big">Большая компания</option>
+                                                        <option value="over">Ахуенно большая</option>
+                                                    </select>
+                                                    
+                                                    
+                                                </div>
+                                                <div class="registration__input input">
+                                                    <input class="input__number" placeholder="Телефон" type="number">
+                                                </div>
+                                                <div class="registration__input input">
+                                                    <input class="input__mail" placeholder="E-mail" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="registraion__button-grid">
+                                                <button class="registration__button">Зарегистрироваться</button>
+                                            </div>
+                                        </div>
+                                        <div class="registration__partners">
+                                            <div class="registration__items">
+                                                <div class="registration__item">
+                                                    <div class="registration__image"><img src="./img/partners_1.png" alt=""></div>
+                                                </div>
+                                                <div class="registration__item">
+                                                    <div class="registration__image"><img src="./img/partners_2.png" alt=""></div>
+                                                </div>
+                                                <div class="registration__item">
+                                                    <div class="registration__image"><img src="./img/partners_3.png" alt=""></div>
+                                                </div>
+                                                <div class="registration__item">
+                                                    <div class="registration__image"><img src="./img/partners_4.png" alt=""></div>
+                                                </div>
+                                                <div class="registration__item">
+                                                    <div class="registration__image"><img src="./img/partners_5.png" alt=""></div>
+                                                </div>
+                                                <div class="registration__item">
+                                                    <div class="registration__image"><img src="./img/partners_6.png" alt=""></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="support">
+            <div class="container">
+                <div class="support__body">
+                    <div class="support__columns">
+                        <div class="support__column-left">
+                            <div class="support__title-left">ПОТРЯСАЮЩАЯ ПОДДЕРЖКА</div>
+                            <ul class="support__list">
+                                <li>•  Поддержка развертывания и настройки без дополнительной оплаты</li>
+                                <li>•  Мгновенная поддержка по телефону или в чате</li>
+                                <li>•  Ответ на билет по электронной почте в течение 2 часов</li>
+                                <li>•  Запросы AII принимаются непосредственно нашими инженерами службы поддержки L2</li>
+                                <li>•  Мы говорим на вашем языке *</li>
+                                <li>•  24 х 7 Премиум поддержка</li>
+                                <li>* Пожалуйста, обратитесь к своему менеджеру по работе с клиентами, чтобы узнать список доступных языков</li>
+                            </ul>
+                            <div class="support__buttons">
+                                <a href="#" class="support__button-demo"><span>Запросить демо</span></a>
+                            <a href="#" class="support__button-connect"><span>Связаться с нами</span></a>
+                            </div>
+                        </div>
+                        <div class="support__column-right">
+                            <div class="support__column-grid">
+                                <div class="support__title-right">
+                                    ПОЛНЫЕ ВОЗМОЖНОСТИ DLP ЗА ЦЕНЫ. ОТПРАВЬТЕ НАМ ЗАЯВКУ И ПОЛУЧИТЕ КП
+                                </div>
+                                <div class="support__form">
+                                    <input placeholder="Фамилия" type="text" class="support__lastname">
+                                    <input placeholder="Компания" type="text" class="support__company">
+                                    <input placeholder="E-Mail" type="text" class="support__mail">
+                                    <button class="support__form-btn">Получить КП</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-us">
+            <div class="contact-us__body">
+                <div class="contact-us__columns">
+                    <div class="contact-us__column">
+                        <div class="contact-us__itmes">
+                            <div class="contact-us__item">
+                                <div class="contact-us__head">
+                                    <div class="contact-us__image"><img src="./img/contact-us__item1.svg" alt="key">
+                                    </div>
+                                    <div class="contact-us__title">
+                                        <div class="contact-us__title_bolt">ZECURION РАМ</div>
+                                        <div class="contact-us__title_normal">управление привилегированным доступом</div>
+                                    </div>
+                                </div>
+                                <div class="contact-us__text">
+                                    Визуальный контроль пользователей роутера и предотвращение злоупотребления ими привилегиями
+                                </div>
+                                <ul class="contact-us__list">
+                                    <div class="contact-us__list-check">
+                                        <img src="./img/contact__check.png" alt="check">
+                                        <li>lsolates критические сетевые ресурсы (пользователи не подключаются к управляемым системам напрямую)</li>
+                                    </div>
+                                    <div class="contact-us__list-check">
+                                        <img src="./img/contact__check.png" alt="check">
+                                        <li> Записывает логи пользователей и видеосеансы, позволяет просматривать их с помощью интерактивного плеера прямо в консоли</li>
+                                    </div>
+                                    <div class="contact-us__list-check">
+                                        <img src="./img/contact__check.png" alt="check">
+                                        <li>Контролирует все популярные протоколы удаленного администрирования, включая SSH, RDP, НТТР, HTTPS</li>
+                                    </div>
+                                </ul>
+                                <a href="#" class="contact-us__button"><span>Свзязаться с нами</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-us__column">
+                        <div class="contact-us__items">
+                            <div class="contact-us__item">
+                                <div class="contact-us__head">
+                                    <div class="contact-us__image"><img src="./img/contact-us__item2.svg" alt="data">
+                                    </div>
+                                    <div class="contact-us__title contact-us__wigth">
+                                        <div class="contact-us__title_bolt">БЕЗОПАСНОСТЬ ХРАНИЛИЩА ZECURION</div>
+                                        </div>
+                                </div>
+                                <div class="contact-us__text">
+                                    Прозрачное шифрование критически важных данных br на серверах и хранилищах Windows (SAN, NAS и т. Д.)
+                                </div>
+                                <ul class="contact-us__list">
+                                    <div class="contact-us__list-check">
+                                        <img src="./img/contact__check.png" alt="check">    
+                                        <li>1-дневная установка в корпоративную среду без прерывания работы пользователя</li>
+                                    </div>
+                                    <div class="contact-us__list-check">
+                                        <img src="./img/contact__check.png" alt="check">    
+                                        <li>Удаленное управление Разделяет привилегии сотрудников и снижает риски злоупотреблений / сговора / воровства благодаря ключевому кворуму</li>
+                                    </div>
+                                    <div class="contact-us__list-check">
+                                        <img src="./img/contact__check.png" alt="check">    
+                                        <li>Не требует ни перенастройки сети или приложений, ни обучения пользователей</li>
+                                    </div>
+                                    
+                                </ul>
+                                <a href="#" class="contact-us__button contact-us__button-row2"><span>Свзязаться с нами</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-us__column">
+                        <div class="contact-us__items">
+                            <div class="contact-us__item">
+                                <div class="contact-us__head">
+                                    <div class="contact-us__image"><img src="./img/contact-us__item3.svg" alt="safety">
+                                    </div>
+                                    <div class="contact-us__title">
+                                        <div class="contact-us__title_bolt">ZECURION РАМ</div>
+                                        <div class="contact-us__title_normal">безопасный <br> веб-шлюз</div>
+                                    </div>
+                                </div>
+                                <div class="contact-us__text contact-us__text_size">
+                                    Контроль доступа к <br> веб-сайтам
+                                     и анализ трафика из единой точки
+                                </div>
+                                <ul class="contact-us__list">
+                                    <div class="contact-us__list-check">
+                                        <img src="./img/contact__check.png" alt="check">
+                                        <li>Легко реализуется благодаря безагентной архитектуре</li>
+                                    </div>
+                                    <div class="contact-us__list-check">
+                                        <img src="./img/contact__check.png" alt="check">
+                                        <li>Классифицирует более 500 миллионов URL-адресов с трафиком, начиная с 4 посещений в день</li>
+                                    </div>
+                                    <div class="contact-us__list-check">
+                                        <img src="./img/contact__check.png" alt="check">
+                                        <li>Различает более 100 категорий веб-сайтов, включая нежелательные и вредоносные</li>
+                                    </div>
+                                    <div class="contact-us__list-check">
+                                        <img src="./img/contact__check.png" alt="check">
+                                        <li>Предоставляет подробные отчеты о посещенных веб-сайтах с детализацией для каждого пользователя</li>
+                                    </div>
+                                    
+                                </ul>
+                                <a href="#" class="contact-us__button contact-us__button-row3"><span>Cвзязаться с нами</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <nav class="footer__navigation navigation">
+                <div class="container">
+                    <div class="navigation__grid">
+                        <div class="navigation__items">
+                            <div class="navigation__item">
+                                <ul class="navigation__list">
+                                    <li>Товары</li>
+                                    <li>Все продукты</li>
+                                    <li>Zecurion DLP</li>
+                                    <li>Зекурион ПАМ</li>
+                                    <li>Zecurion SWG</li>
+                                    <li>Безопасность <br> хранилища ZECURION</li>
+                                </ul>
+                            </div>
+                            <div class="navigation__item">
+                                <ul class="navigation__list">
+                                    <li>Партнеры</li>
+                                    <li>Торговые партнеры</li>
+                                    <li>Технологические<br> партнеры</li>
+                                </ul>
+                            </div>
+                            <div class="navigation__item">
+                                <ul class="navigation__list">
+                                    <li>Товары</li>
+                                </ul>
+                            </div>
+                            <div class="navigation__item">
+                                <ul class="navigation__list">
+                                    <li>Товары</li>
+                                </ul>
+                            </div>
+                            <div class="navigation__item">
+                                <ul class="navigation__list">
+                                    <li>Другое</li>
+                                    <li>О Zecurion</li>
+                                    <li>Новости</li>
+                                    <li> Свяжитесь с нами</li>
+                                    <li> Конфиденциальность <br> и безопасность</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="footer__bottom">
+                <div class="container">
+                    <div class="footer__grid">
+                        <div class="footer__container">
+                            <div class="footer__social">
+                                <div class="footer__images">
+                                    <div class="footer__img"><a href="#" class="footer__link"><img src="./img/footer__facebook.svg" alt=""></a>
+                                    </div>
+                                    <div class="footer__img">
+                                        <a href="#" class="footer__link"><img src="./img/footer__twitter.svg" alt=""></a>
+                                    </div>
+                                    <div class="footer__img">
+                                        <a href="#" class="footer__link"><img src="./img/footer__instagramm.svg" alt=""></a>
+                                    </div>
+                                    <div class="footer__img"><a href="#" class="footer__link"><img src="./img/footer__youtube.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="footer__social-text">Позвоните нам +1866 5810999 Свяжитесь с нами</div>
+                            </div>
+                            <div class="footer__news">
+                                <div class="footer__take-news">
+                                    <input placeholder="E-mail" class="footer__input-mail" type="text">
+                                    <button class="footer__btn-news">Получать новости</button>
+                                </div>
+                                <span class="footer__name-yers">Zecurion, 2001—2020</span>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
